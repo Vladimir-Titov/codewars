@@ -1,11 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-// a -> 1
-// e -> 2
-// i -> 3
-// o -> 4
-// u -> 5
+
+
 char    tmp1[100];
 char    tmp2[100];
 char *encode(const char *string) {
@@ -35,7 +32,7 @@ char *encode(const char *string) {
 
 
 char *decode(const char *string) {
-      
+
     int     i = 0;
 
     while (string[i])
